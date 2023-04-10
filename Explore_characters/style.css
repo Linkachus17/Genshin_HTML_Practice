@@ -1,0 +1,211 @@
+@font-face {
+    font-family: genshin;
+    src: url(./font/ja-jp.ttf);
+}
+
+.body{
+    font-family: genshin;
+}
+
+.background{
+    position: fixed;
+    left: -7%;
+    bottom: -30%;
+    margin-left: auto;
+    margin-bottom: auto;
+    overflow-y: hidden;
+}
+
+.title{
+    z-index: 10;
+    position: fixed;
+    border-style: solid;
+    background-color: black;
+    border-radius: 9px;
+    left: -1%;
+    bottom: 78%;
+    width: 95%;
+    padding: 50px;
+    text-align: center;
+}
+
+.black_bg{
+    position: fixed;
+    border-style: solid;
+    width: 2000px;
+    height: 720px;
+    left: -90px;
+    background-color: black;
+    opacity: 70%;
+    overflow-y: scroll;
+}
+
+.chara_img_jean{
+    position: relative;
+    top: 170px;
+    left: -190px;
+    width: 59%;
+    height: 59%;
+}
+
+.chara_name_jean{
+    position: relative;
+    top: -180px;
+    left: 700px;
+    font-size: 58px;
+}
+
+.chara_desc_jean{
+    position: relative;
+    top: -160px;
+    left: 700px;
+    font-size: 24px;
+    text-align: left;
+    margin-right: 800px;
+}
+
+.chara_img_amber{
+    position: relative;
+    top: 10px;
+    left: 800px;
+    width: 59%;
+    height: 59%;
+}
+
+.chara_name_amber{
+    position: relative;
+    top: -400px;
+    left: 200px;
+    font-size: 58px;
+}
+
+.chara_desc_amber{
+    position: relative;
+    top: -380px;
+    left: 200px;
+    font-size: 24px;
+    text-align: left;
+    margin-right: 800px;
+}
+
+.chara_img_lisa{
+    position: relative;
+    top: -190px;
+    left: -300px;
+    width: 59%;
+    height: 59%;
+}
+
+.chara_name_lisa{
+    position: relative;
+    top: -540px;
+    left: 700px;
+    font-size: 58px;
+}
+
+.chara_desc_lisa{
+    position: relative;
+    top: -520px;
+    left: 703px;
+    font-size: 24px;
+    text-align: left;
+    margin-right: 800px;
+}
+
+.chara_img_kaeya{
+    position: relative;
+    top: -380px;
+    left: 700px;
+    width: 59%;
+    height: 59%;
+}
+
+.chara_name_kaeya{
+    position: relative;
+    top: -800px;
+    left: 200px;
+    font-size: 58px;
+}
+
+.chara_desc_kaeya{
+    position: relative;
+    top: -770px;
+    left: 200px;
+    font-size: 24px;
+    text-align: left;
+    margin-right: 800px;
+}
+
+.chara_img_barbara{
+    position: relative;
+    top: -530px;
+    left: -260px;
+    width: 59%;
+    height: 59%;
+}
+
+.chara_name_barbara{
+    position: relative;
+    top: -880px;
+    left: 700px;
+    font-size: 58px;
+}
+
+.chara_desc_barbara{
+    position: relative;
+    top: -860px;
+    left: 703px;
+    font-size: 24px;
+    text-align: left;
+    margin-right: 800px;
+}
+
+.button_explore_character{
+    position: relative;
+    bottom: 700px;
+    left: 39.5%;
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    border-radius: 7px;
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    font-family: genshin;
+    padding: 10px;
+}
+
+.test{
+    border: 5px solid green;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.icon_PS{
+    position: relative;
+    bottom: 500px;
+    left: 290px;
+}
+
+.icon_Windows{
+    position: relative;
+    bottom: 500px;
+    left: 320px;
+}
+
+.icon_App_store{
+    position: relative;
+    bottom: 500px;
+    left: 350px;
+}
+
+.icon_PlayStore{
+    position: relative;
+    bottom: 500px;
+    left: 390px;
+}

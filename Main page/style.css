@@ -1,0 +1,79 @@
+.logo_genshin{
+    position: fixed;
+    left: 34%;
+    bottom: 50%;
+    width: 492px;
+    height: 300px;
+}
+
+.black_bg{
+    position: fixed;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    left: -20%;
+    top: -20%;
+    width: 99999px;
+    height: 99999px;
+    opacity: 100%;
+}
+
+.video{
+    position: fixed;
+    right: -10%;
+    bottom: -10%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 120%;
+    height: 120%;
+}
+
+@font-face {
+    font-family: genshin;
+    src: url(./font/ja-jp.ttf);
+}
+
+.button_download{
+    position: fixed;
+    bottom: 45%;
+    left: 39.5%;
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    border-radius: 7px;
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    font-family: genshin;
+    padding: 10px;
+}
+
+.button_explore_genshin{
+    position: fixed;
+    bottom: 35%;
+    left: 39.5%;
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    border-radius: 7px;
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    font-family: genshin;
+    padding: 10px;
+}
+
+.button_explore_character{
+    position: fixed;
+    bottom: 25%;
+    left: 39.5%;
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    border-radius: 7px;
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    font-family: genshin;
+    padding: 10px;
+}

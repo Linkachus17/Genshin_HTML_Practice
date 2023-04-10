@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../aos-master/dist/aos.css" />
+
+  <head>
+    <title>Main Page</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+  </head>
+
+  <body>
+    <!-- <video autoplay muted loop class="video">
+      <source src="./vid/Genshin.mp4" type="video/mp4" />
+    </video> -->
+
+    <div class="black_bg"></div>
+
+    <img
+      data-aos="fade-up"
+      class="logo_genshin"
+      src="./img/Genshin-Impact-Logo-2048x1288.png"
+      alt="Logo goes here"
+    />
+
+    <a href="https://genshin.hoyoverse.com/en/"
+      ><div data-aos="fade-down" data-aos-delay="700" class="button_download">
+        Download
+      </div></a
+    >
+
+    <a href="../Explore_game/index.html"
+      ><div
+        data-aos="fade-down"
+        data-aos-delay="600"
+        class="button_explore_genshin"
+      >
+        Explore Genshin
+      </div></a
+    >
+
+    <a href="../Explore_characters/index.html"
+      ><div
+        data-aos="fade-down"
+        data-aos-delay="500"
+        class="button_explore_character"
+      >
+        Explore Characters
+      </div></a
+    >
+
+    <script src="../aos-master/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 50,
+        mirror: true,
+        easing: "ease-in-out-sine",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>

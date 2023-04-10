@@ -1,0 +1,152 @@
+@font-face {
+    font-family: genshin;
+    src: url(./font/ja-jp.ttf);
+}
+
+.title{
+    z-index: 10;
+    position: fixed;
+    border-style: solid;
+    background-color: black;
+    border-radius: 9px;
+    left: -1%;
+    bottom: 78%;
+    width: 95%;
+    padding: 50px;
+    text-align: center;
+}
+
+.background{
+    position: fixed;
+    left: -7%;
+    bottom: -30%;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.black_bg{
+    position: fixed;
+    border-style: solid;
+    width: 9999px;
+    height: 9999px;
+    left: -90px;
+    background-color: black;
+    opacity: 100%;
+}
+
+.body{
+    font-family: genshin;
+    overflow-x: hidden;
+    color: white;
+}
+
+.caption1{
+    position: relative;
+    left: 7%;
+    top: 192px;
+}
+
+.description1{
+    position: relative;
+    margin-right: 65%;
+    top: 198px;
+    left: 7%;
+    font-size: 20px;
+}
+
+.image1{
+    position: relative;
+    width: 50%;
+    height: 55%;
+    left: 46%;
+    bottom: 20%;
+    min-height: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: white;
+}
+
+
+.caption2{
+    position: relative;
+    left: 70%;
+    font-size: 30px;
+}
+
+.description2{
+    position: relative;
+    text-align: right;
+    margin-right: 65%;
+    bottom: -12%;
+    left: 61%;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.image2{
+    position: relative;
+    width: 50%;
+    height: 55%;
+    bottom: 192px;
+    left: 30px;
+    min-height: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.caption3{
+    position: relative;
+    left: 7%;
+    bottom: 192px;
+    font-size: 30px;
+}
+
+.description3{
+    position: relative;
+    text-align: left;
+    margin-right: 65%;
+    left: 107px;
+    bottom: 190px;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.image3{
+    position: relative;
+    width: 50%;
+    height: 55%;
+    bottom: 368px;
+    left: 700px;
+    min-height: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.icon_PS{
+    position: relative;
+    top: -100px;
+    left: 290px;
+}
+
+.icon_Windows{
+    position: relative;
+    top: -100px;
+    left: 320px;
+}
+
+.icon_App_store{
+    position: relative;
+    top: -100px;
+    left: 350px;
+}
+
+.icon_PlayStore{
+    position: relative;
+    top: -100px;
+    left: 390px;
+}
